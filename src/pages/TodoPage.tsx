@@ -69,6 +69,14 @@ export default function TodoPage() {
             <TodoInput onAdd={addTodo} />
           </div>
 
+          <div className="px-5 py-4 border-b border-gray-100">
+            <img
+              src="/images/49754.jpg"
+              alt="Reference"
+              className="w-full h-auto rounded-xl ring-1 ring-gray-200 object-cover"
+            />
+          </div>
+
           <TodoList
             todos={filtered}
             onToggle={toggleTodo}
